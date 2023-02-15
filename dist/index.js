@@ -15,4 +15,3 @@ app.get("/ping", (_req, res) => {
 app.listen(port, () => {
     return console.log(`Server is listening on ${port}`);
 });
-//# sourceMappingURL=index.js.map
