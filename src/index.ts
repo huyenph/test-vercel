@@ -16,8 +16,8 @@ app.use(
   }
 );
 app.use("/", appRouter);
-app.listen(process.env.PORT, () => {
-  console.log(`App listening on port: ${process.env.PORT}`);
+app.listen(8080, () => {
+  console.log(`App listening on port: ${8080}`);
 });
 
 database.sequelize.sync();
