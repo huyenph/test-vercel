@@ -15,7 +15,7 @@ app.use(
     next();
   }
 );
-app.use("/api", appRouter);
+app.use("/", appRouter);
 app.listen(process.env.PORT, () => {
   console.log(`App listening on port: ${process.env.PORT}`);
 });
