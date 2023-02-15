@@ -1,8 +1,8 @@
-// const express = require("express");
-// const { NextFunction, Request, Response } = require("express");
-// const bodyParse = require("body-parser");
-// const database = require("./models");
-// const appRouter = require("./routers");
+const express = require("express");
+const { NextFunction, Request, Response } = require("express");
+const bodyParse = require("body-parser");
+const database = require("./models");
+const appRouter = require("./routers");
 
 // const app = express();
 
@@ -23,9 +23,6 @@
 // database.sequelize.sync();
 
 // module.exports = app;
-
-const express = require("express");
-const { NextFunction, Request, Response } = require("express");
 
 const app = express();
 const port = process.env.PORT || 8080;
